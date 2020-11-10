@@ -1,0 +1,6 @@
+WinEdt
+如果要使Biber成为编译书目的默认工具，则必须转到“选项”->“执行模式”，“控制台应用程序”面板，并将BibTeX附件的“可执行”字段的值从bibtex.exe更改为。biber.exe：
+
+在此处输入图片说明
+
+这样，每次启动命令BibTeX时，WinEdt都会执行Biber。
