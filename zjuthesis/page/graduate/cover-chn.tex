@@ -12,7 +12,7 @@
 
 
 \begin{center}
-    \includegraphics[width=0.5\paperwidth]{logo/zjuchar.pdf}
+    \includegraphics[width=0.28\paperwidth]{logo/zjuchar.pdf}
 \end{center}
 
 \vspace{-40pt}
@@ -32,13 +32,14 @@
 
 \begin{center}
     \bfseries \zihao{-2}
-    \begin{tabularx}{.8\textwidth}{>{\fangsong}l X<{\centering}}
+    \begin{tabularx}{.9\textwidth}{>{\songti}l >{\fangsong}X<{\centering}}
         % If titles are too long for one row, please manually separate them into
         % multiple lines, as the english title here.
-        中文论文题目：      &  \uline{\hfill \fangsong \Title{} \hfill} \\
+        中文论文题目：    &  \uline{\hfill \fangsong \Title{} \hfill} \\
                           &  \uline{\hfill} \\
-        英文论文题目：      &  \uline{\hfill A Very Long Graduation \hfill} \\
-                          &  \uline{\hfill Thesis Title           \hfill} \\
+        英文论文题目：    &  \uline{\hfill This is an Example of           \hfill} \\
+                          &  \uline{\hfill a Very Very Long Graduation      \hfill} \\
+                          &  \uline{\hfill Thesis Title                     \hfill} \\
     \end{tabularx}
 \end{center}
 
@@ -46,38 +47,13 @@
 
 \begin{center}
     \zihao{4}
-    \begin{tabularx}{.6\textwidth}{>{\fangsong}l >{\fangsong}X<{\centering}}
-        \ifthenelse{\equal{\BlindReview}{true}}%
-        {%
-            申请人姓名： & \uline{\hfill} \\
-            指导教师：   & \uline{\hfill} \\
-            合作导师：   &  \uline{\hfill} \\
-            \ifthenelse{\equal{\Type}{design}}
-            {%
-                专业学位类别：  &  \uline{\hfill} \\
-                专业学位领域：  &  \uline{\hfill} \\
-            }
-            {%
-                学科(专业)：  &  \uline{\hfill} \\
-                研究方向：  &  \uline{\hfill} \\
-            }
-            所在学院：   &  \uline{\hfill} \\
-        }
-        {%
-            申请人姓名： & \uline{\hfill \StudentName \hfill} \\
-            指导教师：   & \uline{\hfill \AdvisorName \hfill} \\
-            合作导师：   &  \uline{\hfill \ColaboratorName \hfill} \\
-            \ifthenelse{\equal{\Type}{design}}
-            {%
-                专业学位类别：  &  \uline{\hfill \Major \hfill} \\
-                专业学位领域：  &  \uline{\hfill \Topic \hfill} \\
-            }
-            {%
-                学科(专业)：  &  \uline{\hfill \Major \hfill} \\
-                研究方向：  &  \uline{\hfill \Topic \hfill} \\
-            }
-            所在学院：   &  \uline{\hfill \Department \hfill} \\
-        }
+    \begin{tabularx}{.6\textwidth}{>{\songti}l >{\fangsong}X<{\centering}}
+         研究生姓名： & \uline{\hfill \StudentName \hfill} \\
+         指导教师：   & \uline{\hfill \AdvisorName \hfill} \\
+         合作导师：   & \uline{\hfill \ColaboratorName \hfill} \\
+         专业名称：   & \uline{\hfill \Major \hfill} \\
+         研究方向：   & \uline{\hfill \Topic \hfill} \\
+         所在院系：   & \uline{\hfill \Department \hfill} \\
     \end{tabularx}
 \end{center}
 
@@ -85,7 +61,7 @@
 
 \begin{center}
     \zihao{-3} \bfseries
-    \begin{tabularx}{.5\textwidth}{>{\fangsong}l >{\fangsong}X<{\centering}}
-        论文递交日期 & \uline{\hfill}
+    \begin{tabularx}{.5\textwidth}{>{\songti}l >{\songti}X<{\centering}}
+        提交日期 & \uline{\hfill \SubmitDate \hfill}
     \end{tabularx}
 \end{center}
