@@ -1,17 +1,19 @@
+% ===============================
+% Modifier : Shaojian Yang (for Ocean College Graduate Proposal Version)
+% Email    : blknaoh [at] 163.com
+% 编译环境：Windows10 + tex live2019 + WinEdt 10.3
+% 编译方法：一次XeLatex => 一次Bibtex(Biber) => 一次XeLatex
+% Issues in brief :
+% 如果参考文献编译错误，请将bibtex编译器修改为biber，具体参照./Issues/参考文献相关
+% 参考文献的路径是./zjuthesis/body/ref.bib
+% 正文是./zjuthesis/body/graduate/content.tex , 如篇幅较长建议分章节编辑
+% ================================
 % Zhejiang University Graduation Thesis/Design Template
 % Author    : Zixuan Wang
 % Email     : zxwang42 [at] gmail.com
 % Update    : https://github.com/TheNetAdmin/zjuthesis/releases
 % Chat Room : https://gitter.im/zjuthesis/community
 % Documents : https://thenetadmin.github.io/zjuthesis
-% ===============================
-% Modifier : Shaojian Yang (for Ocean College Graduate Proposal Version)
-% Email    : blknaoh [at] 163.com
-% Issues in brief :
-% 如果参考文献编译错误，请将bibtex编译器修改为biber，具体参照./Issues/参考文献相关
-% 参考文献的路径是./zjuthesis/body/ref.bib
-% 正文是./zjuthesis/body/graduate/content.tex , 如篇幅较长建议分章节编辑
-
 % ================================
 % If you have trouble using this template, please:
 %   1. First go through the online documentations mentioned above, to see if
@@ -21,27 +23,28 @@
 %   3. Open a GitHub Issue to discuss with developers
 %   4. If you don't know how to use GitHub, you can visit the online chat room
 %      or send me an email
-
+% ================================
 \documentclass[
-    StudentName     = 姓名,
-    StudentID       = 学号,
-    AdvisorName     = 指导教师,
-    Grade           = 2014,            % only the year, no '级'
-    Major           = 专业,
-    Department      = 学院,
-    Title           = 毕业论文/设计题目,% 请移步./page/graduate/cover-chn.tex中修改多行标题
-    SubmitDate      = 递交日期,
-    MajorFormat     = general,
-    Degree          = graduate,   % 'undergraduate' or 'graduate'
-    Type            = thesis,          % 'thesis'   or 'design'
-    Period          = final,           % 'proposal' or 'final'
-    BlindReview     = false,           % 'false'    or 'true'
-    Language        = chinese,         % 'chinese'  or 'english'
+    StudentName     = 姓名,           % 例：张三
+    StudentID       = 学号,           % 例：21934999
+    AdvisorName     = 指导教师,       % 例：李四
+    Grade           = 2019,           % only the year, no '级'，此项可不用管，不会在文中出现
+    Major           = 专业,           % 船舶与海洋工程 or 海洋信息科学与技术 or 海洋技术与工程
+    Department      = 海洋学院,
+    Title           = 毕业论文/设计题目,% 请移步./page/graduate/cover-chn.tex中修改，此处填写无效
+    SubmitDate      = 递交日期,       % 例：2020年11月11日
+    MajorFormat     = general,        % 这个参数不要动
+    Degree          = graduate,       % 'undergraduate' or 'graduate'，这个参数不要动
+    Type            = thesis,         % 'thesis'   or 'design'，这个参数不要动
+    Period          = final,          % 'proposal' or 'final' ，此处不要动，就算是开题报告也选final
+    BlindReview     = false,          % 'false'    or 'true'，这个参数不要动
+    Language        = chinese,        % 'chinese'  or 'english'，这个参数不要动
     % Below only for 'graduate'
-    GradLevel       = master,          % 'master' or 'doctor'
-    Topic           = 研究方向,
-    ColaboratorName = 合作导师,
+    GradLevel       = master,         % 'master' or 'doctor'，硕士选master，博士选doctor
+    Topic           = 研究方向,       % 例：水声通信
+    ColaboratorName = 合作导师,       % 例：王五
     TitleEng        = {{Graduation Thesis Title}}
+    % 英文标题请移步./page/graduate/cover-chn.tex中修改，此处填写无效
 ]{./config/zjuthesis}
 
 \begin{document}
