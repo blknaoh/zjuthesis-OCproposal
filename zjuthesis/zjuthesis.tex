@@ -5,11 +5,12 @@
 % Chat Room : https://gitter.im/zjuthesis/community
 % Documents : https://thenetadmin.github.io/zjuthesis
 % ===============================
-% Modifier : Shaojian Yang (for Ocean College Version)
+% Modifier : Shaojian Yang (for Ocean College Graduate Proposal Version)
 % Email    : blknaoh [at] 163.com
 % Issues in brief :
 % 如果参考文献编译错误，请将bibtex编译器修改为biber，具体参照./Issues/参考文献相关
-
+% 参考文献的路径是./zjuthesis/body/ref.bib
+% 正文是./zjuthesis/body/graduate/content.tex , 如篇幅较长建议分章节编辑
 
 % ================================
 % If you have trouble using this template, please:
@@ -43,9 +44,8 @@
     TitleEng        = {{Graduation Thesis Title}}
 ]{./config/zjuthesis}
 
+\begin{document}
 
-\newcommand{\inputgraduate}
-{
     \coverstyle
     \inputpage{cover}
 
@@ -59,10 +59,5 @@
     % Post part
     \poststyle
     \inputbody{ref}
-}
-
-\begin{document}
-
-    \inputgraduate{}
 
 \end{document}
