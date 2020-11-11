@@ -8,6 +8,7 @@
 % 如果参考文献编译错误，请将bibtex编译器修改为biber，具体参照./Issues/参考文献相关
 % 参考文献的路径是./zjuthesis/body/ref.bib
 % 正文是./zjuthesis/body/chapter/chapter#.tex , 建议分章节编辑
+% 中英文标题、密级、分类号请移步./page/graduate/cover-chn.tex中修改，此处填写无效
 % ================================
 % Zhejiang University Graduation Thesis/Design Template
 % Creator   : Zixuan Wang
@@ -29,23 +30,24 @@
     StudentName     = 姓名,           % 例：张三
     StudentID       = 学号,           % 例：21934999
     AdvisorName     = 指导教师,       % 例：李四
-    Grade           = 2019,           % only the year, no '级'，此项可不用管，不会在文中出现
-    Major           = 专业,           % 船舶与海洋工程 or 海洋信息科学与技术 or 海洋技术与工程
-    Department      = 海洋学院,
-    Title           = 毕业论文/设计题目,% 请移步./page/graduate/cover-chn.tex中修改，此处填写无效
+    Grade           = 2019,           % 此项可不用管，不会在文中出现
+    Major           = 专业,           % 例：船舶与海洋工程 or 海洋信息科学与技术 or 海洋技术与工程
+    Department      = 海洋学院,       % 例：海洋学院
+    Title           = 此处填写无效,   % 请移步./page/graduate/cover-chn.tex中修改，此处填写无效
     SubmitDate      = 递交日期,       % 例：2020年11月11日
     MajorFormat     = general,        % 这个参数不要动
+    % =====以下参数不要动=====
     Degree          = graduate,       % 'undergraduate' or 'graduate'，这个参数不要动
     Type            = thesis,         % 'thesis'   or 'design'，这个参数不要动
     Period          = final,          % 'proposal' or 'final' ，此处不要动，就算是开题报告也选final
     BlindReview     = false,          % 'false'    or 'true'，这个参数不要动
     Language        = chinese,        % 'chinese'  or 'english'，这个参数不要动
+    % =====以上参数不要动=====
     % Below only for 'graduate'
-    GradLevel       = master,         % 'master' or 'doctor'，硕士选master，博士选doctor
+    GradLevel       = master,         % 硕士填master，博士填doctor
     Topic           = 研究方向,       % 例：水声通信
-    ColaboratorName = 合作导师,       % 例：王五
-    TitleEng        = {{Graduation Thesis Title}}
-    % 英文标题请移步./page/graduate/cover-chn.tex中修改，此处填写无效
+    ColaboratorName = 合作导师,       % 例：王五  
+    TitleEng        = {{此处填写无效}}% 请移步./page/graduate/cover-chn.tex中修改，此处填写无效
 ]{zjuthesis}
 
 \begin{document}
