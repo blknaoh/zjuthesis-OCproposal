@@ -4,7 +4,7 @@ zjuthesis海洋学院研究生开题报告模板，原始版本为Zixuan Wang发
 - Modifier : Shaojian Yang 
 - Email    : blknaoh [at] 163.com
 - Update   : https://github.com/blknaoh/zjuthesis-OCproposal
-- 当前版本 : v0.2.2
+- 当前版本 : v0.2.3
 - 编译环境 ：Windows10 + tex live2019 + WinEdt 10.3
 - 编译方法 ：一次XeLatex => 一次Bibtex(Biber) => 一次XeLatex
 ## Issues in brief :
